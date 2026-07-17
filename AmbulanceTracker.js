@@ -11,7 +11,7 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 
 import "./AmbulanceTracker.css";
-
+import DriverDetails from "./DriverDetails";
 
 const userIcon = new L.Icon({
     iconUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png",
@@ -173,6 +173,7 @@ else{
         return () => clearInterval(interval);
 
     }, [userLocation]);
+
 
     return (
 
@@ -337,6 +338,8 @@ else{
                 </Marker>
 
             </MapContainer>
+
+            <DriverDetails hospital={hospital} />
 
         </div>
 

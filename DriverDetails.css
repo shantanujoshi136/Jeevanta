@@ -1,0 +1,54 @@
+.driver-card {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.driver-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.driver-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+    gap: 18px;
+}
+
+.driver-info div {
+    background: #f7f7f7;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.driver-info h3 {
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.driver-info p {
+    color: #666;
+    font-size: 16px;
+}
+
+.call-btn {
+    display: block;
+    width: 220px;
+    margin: 25px auto 0;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #1abc9c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.call-btn:hover {
+    background: #16a085;
+}

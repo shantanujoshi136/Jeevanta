@@ -58,3 +58,78 @@
     font-size:17px;
 
 }
+.driver-card{
+
+    margin-top:25px;
+
+    background:#fff;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.12);
+
+}
+
+.driver-card h2{
+
+    color:#dc3545;
+
+    margin-bottom:20px;
+
+}
+
+.driver-info{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:20px;
+
+}
+
+.driver-info h3{
+
+    color:#555;
+
+    font-size:15px;
+
+    margin-bottom:5px;
+
+}
+
+.driver-info p{
+
+    font-size:17px;
+
+    font-weight:600;
+
+}
+
+.call-btn{
+
+    margin-top:25px;
+
+    background:#198754;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 30px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+}
+
+.call-btn:hover{
+
+    background:#157347;
+
+}
